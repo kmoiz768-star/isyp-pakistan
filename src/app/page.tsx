@@ -16,61 +16,6 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white">
 
-      {/* HEADER */}
-
-      <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
-
-        <div className="max-w-7xl mx-auto px-6">
-
-          <div className="flex justify-between items-center h-28">
-
-            <div className="flex items-center">
-
-<Image
-  src="/images/isyp-logo.png"
-  alt="ISYP Pakistan"
-  width={420}
-  height={100}
-  className="object-contain"
-  priority
-/>
-
-            </div>
-
-<div className="hidden lg:flex items-center gap-10 text-[#0e0524] font-medium">
-
-  <Link href="/about" className="hover:text-purple-700 transition">
-    About
-  </Link>
-
-  <Link href="/research" className="hover:text-purple-700 transition">
-    Research
-  </Link>
-
-  <Link href="/publications" className="hover:text-purple-700 transition">
-    Publications
-  </Link>
-
-  <Link href="/events" className="hover:text-purple-700 transition">
-    Events
-  </Link>
-
-  <Link href="/experts" className="hover:text-purple-700 transition">
-    Experts
-  </Link>
-
-  <Link href="/contact" className="hover:text-purple-700 transition">
-    Contact
-  </Link>
-
-</div>
-
-          </div>
-
-        </div>
-
-      </nav>
-
       {/* HERO */}
 
       <section className="bg-[radial-gradient(circle_at_top_right,#3A236B_0%,#0e0524_40%,#080312_100%)] text-white">
@@ -290,79 +235,7 @@ export default function Home() {
 
       </section>
 
-      {/* FOOTER */}
 
-      <footer className="bg-[#0e0524] text-white py-24">
-
-        <div className="max-w-7xl mx-auto px-6">
-
-          <div className="grid md:grid-cols-4 gap-10">
-
-            <div>
-
-              <Image
-                src="/images/isyp-logo.png"
-                alt="ISYP Pakistan"
-                width={220}
-                height={60}
-              />
-
-              <p className="mt-6 text-[#DCD6F7]">
-                Advancing Peace, Strategic Stability and Emerging Security Research.
-              </p>
-
-            </div>
-
-            <div>
-
-              <h4 className="font-semibold mb-4">
-                Research
-              </h4>
-
-              <ul className="space-y-2 text-[#DCD6F7]">
-                <li>Strategic Stability</li>
-                <li>AI & Security</li>
-                <li>Maritime Security</li>
-                <li>Cyber Security</li>
-              </ul>
-
-            </div>
-
-            <div>
-
-              <h4 className="font-semibold mb-4">
-                Publications
-              </h4>
-
-              <ul className="space-y-2 text-[#DCD6F7]">
-                <li>Research Papers</li>
-                <li>Policy Briefs</li>
-                <li>Commentaries</li>
-              </ul>
-
-            </div>
-
-            <div>
-
-              <h4 className="font-semibold mb-4">
-                Contact
-              </h4>
-
-              <p className="text-[#DCD6F7]">
-                contact@isyppakistan.org
-              </p>
-
-            </div>
-
-          </div>
-
-          <div className="mt-16 pt-8 border-t border-[#2A1859] text-center text-[#C4B5FD]">
-            © 2026 International Student Young Pugwash Pakistan
-          </div>
-
-        </div>
-
-      </footer>
 
     </main>
   );
